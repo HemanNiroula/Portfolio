@@ -1,0 +1,25 @@
+  * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Winky Rough", sans-serif;
+      }
+
+nav{
+
+	text-align: center;
+	margin-top: 0px;
+	display: flex;
+	justify-content: space-around;
+	background-color: maroon;
+
+}
+nav > a {
+	padding-block: 22px;
+	background-color: maroon;
+	 color: whitesmoke;
+	 text-decoration: none;
+}
+#UP {
+	text-align: center;
+}
