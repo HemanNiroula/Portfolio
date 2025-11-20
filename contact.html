@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="stylee.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Heman Niroula</title>
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="stylee.css" />
 </head>
 <body>
-		<nav>
-		<a href="home.html">Home</a>
-		<a href="about.html">About</a>
-		<a href="contact.html">Contact</a>
-	</nav>
-<p>this is the contact page</p>
+  <nav class="navbar">
+    <a href="index.html" class="logo">Portfolio.</a>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="home">
+    <div class="home-info">
+     
+      <h2>Get in touch</h2>
+      <p>If you'd like to contact me directly, email me at <a href="mailto:hemanniroula4@gmail.com">hemanniroula4@gmail.com</a> or use the form below.</p>
+
+      <!-- Formspree ready form: replace action URL with your Formspree endpoint if you create one -->
+      <form class="contact-form" method="POST" action="https://formspree.io/f/your-form-id">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Type your message..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="btn-sci" style="margin-top: 18px;">
+        <div class="sci">
+          <a href="https://github.com/HemanNiroula" target="_blank" rel="noopener"><i class='bx bxl-github'></i></a>
+          <a href="https://www.instagram.com/heman_niroula/" target="_blank" rel="noopener"><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="contact.jpg" alt="Heman Niroula" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© by Heman Niroula</p>
+  </footer>
 </body>
 </html>
